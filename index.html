@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=s, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- add form start -->
+    <div>
+      <input type="text" id="inp-add" />
+      <button id="btn-add">save</button>
+    </div>
+    <!-- add form end -->
+
+    <!-- search inp -->
+    <input type="text" id="inp-search" placeholder="Search" />
+    <!-- search inp end -->
+
+    <!-- pagination -->
+    <div id="pagination"></div>
+    <!-- pagination -->
+
+    <!-- list start -->
+    <div id="list"></div>
+    <!-- list end -->
+    <div id="modal-edit">
+      <div id="modal-edit-body">
+        <button id="modal-edit-close">close</button>
+        <div id="modal-edit-inps">
+          <input type="text" id="edit-todo" />
+          <input type="text" id="edit-id" />
+          <button id="btn-save-edit">Save</button>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
